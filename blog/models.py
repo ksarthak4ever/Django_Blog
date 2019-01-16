@@ -16,6 +16,7 @@ class Post(models.Model):  #in django ORM(Object-Relational Mapping) the databas
 
 	def get_absolute_url(self):
 		return reverse('post-detail', kwargs={'pk':self.pk}) #not using redirect function as here we simply want the url as a string and let django do the rest so we use reverse function
+								     #Given a url pattern, Django uses url() to pick the right view and generate a page. That is, url--> view name. But sometimes, like when redirecting, you need to go in the reverse direction and give Django the name of a view, and Django generates the appropriate url. In other words, view name --> url. That is, reverse() (it's the reverse of the url function). 
 
 
 
