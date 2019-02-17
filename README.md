@@ -1,7 +1,7 @@
 # Django_Blog
 A blog application made using Django.Using this application a User can create an account and later on update his account details and profile picture.Once registered and logged in the user can write,update and delete blog posts. 
 
-##How to setup and run the application
+## How to setup and run the application
 
 * Set up a virtual environment and install django and the libraries used in this project from the requirements.txt file using:~
 'pip install -r requirements.txt'
