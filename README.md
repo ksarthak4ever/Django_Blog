@@ -4,14 +4,14 @@ A blog application made using Django.Using this application a User can create an
 ## How to setup and run the application
 
 * Set up a virtual environment and install django and the libraries used in this project from the requirements.txt file using:~
-'pip install -r requirements.txt'
+`pip install -r requirements.txt`
 
 * To run the application enter the project directory and enter the command :~
-'python manage.py runserver'
+`python manage.py runserver`
 
 * To create a fresh database remove the database file and the migrations and run commands:~ 
-'ython manage.py makemigrations' 
-'python manage.py migrate'
+`python manage.py makemigrations` 
+`python manage.py migrate`
 
 * For any queries contact me.
 
